@@ -1,0 +1,1 @@
+Polymorphism enables us to use derived class methods using a base class reference variable at runtime

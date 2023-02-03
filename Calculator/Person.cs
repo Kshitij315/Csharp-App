@@ -8,7 +8,7 @@ namespace Calculator
 {
      class Person
     {
-        private string Name;//field
+        private string? Name;//field
         public string publicName // property
         {
             get
@@ -17,7 +17,7 @@ namespace Calculator
                 {
                     return Name;
                 }
-                return null;
+                return Name;
             }
             set
             {
